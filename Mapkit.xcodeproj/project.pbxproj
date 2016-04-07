@@ -14,6 +14,10 @@
 		4981F92C1CB66A9B008B15F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981F92A1CB66A9B008B15F7 /* LaunchScreen.storyboard */; };
 		4981F9371CB66A9B008B15F7 /* MapkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981F9361CB66A9B008B15F7 /* MapkitTests.swift */; };
 		4981F9421CB66A9B008B15F7 /* MapkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981F9411CB66A9B008B15F7 /* MapkitUITests.swift */; };
+		4981F9501CB66C56008B15F7 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981F94F1CB66C56008B15F7 /* JSON.swift */; };
+		4981F9531CB66D25008B15F7 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 4981F9521CB66D25008B15F7 /* PublicArt.json */; };
+		4981F9551CB66D90008B15F7 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981F9541CB66D90008B15F7 /* Artwork.swift */; };
+		4981F9571CB66DF7008B15F7 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981F9561CB66DF7008B15F7 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4981F93D1CB66A9B008B15F7 /* MapkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4981F9411CB66A9B008B15F7 /* MapkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitUITests.swift; sourceTree = "<group>"; };
 		4981F9431CB66A9B008B15F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4981F94F1CB66C56008B15F7 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		4981F9521CB66D25008B15F7 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		4981F9541CB66D90008B15F7 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		4981F9561CB66DF7008B15F7 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		4981F9201CB66A9B008B15F7 /* Mapkit */ = {
 			isa = PBXGroup;
 			children = (
+				4981F94F1CB66C56008B15F7 /* JSON.swift */,
+				4981F9511CB66C70008B15F7 /* Supporting Files */,
 				4981F9211CB66A9B008B15F7 /* AppDelegate.swift */,
 				4981F9231CB66A9B008B15F7 /* ViewController.swift */,
+				4981F9541CB66D90008B15F7 /* Artwork.swift */,
 				4981F9251CB66A9B008B15F7 /* Main.storyboard */,
 				4981F9281CB66A9B008B15F7 /* Assets.xcassets */,
 				4981F92A1CB66A9B008B15F7 /* LaunchScreen.storyboard */,
 				4981F92D1CB66A9B008B15F7 /* Info.plist */,
+				4981F9561CB66DF7008B15F7 /* VCMapView.swift */,
 			);
 			path = Mapkit;
 			sourceTree = "<group>";
@@ -123,6 +135,14 @@
 				4981F9431CB66A9B008B15F7 /* Info.plist */,
 			);
 			path = MapkitUITests;
+			sourceTree = "<group>";
+		};
+		4981F9511CB66C70008B15F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4981F9521CB66D25008B15F7 /* PublicArt.json */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4981F9531CB66D25008B15F7 /* PublicArt.json in Resources */,
 				4981F92C1CB66A9B008B15F7 /* LaunchScreen.storyboard in Resources */,
 				4981F9291CB66A9B008B15F7 /* Assets.xcassets in Resources */,
 				4981F9271CB66A9B008B15F7 /* Main.storyboard in Resources */,
@@ -256,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4981F9501CB66C56008B15F7 /* JSON.swift in Sources */,
 				4981F9241CB66A9B008B15F7 /* ViewController.swift in Sources */,
+				4981F9571CB66DF7008B15F7 /* VCMapView.swift in Sources */,
+				4981F9551CB66D90008B15F7 /* Artwork.swift in Sources */,
 				4981F9221CB66A9B008B15F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
